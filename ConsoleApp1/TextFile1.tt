@@ -23,6 +23,7 @@ using System.Reflection;
 [assembly: AssemblyVersion("<#= this.NumberDay #>.<#= this.NumberMonth #>.<#= this.NumberYear #>.<#= this.NumberMinut #>")]
 [assembly: AssemblyFileVersion("<#= this.NumberDay #>.<#= this.NumberMonth #>.<#= this.NumberYear #>.<#= this.NumberMinut #>")]
 <#+
+
 	int NumberYear = (int)DateTime.Now.Year;
     int NumberMonth = (int)DateTime.Now.Month;
     int NumberDay = (int)DateTime.Now.Day;

@@ -13,7 +13,12 @@ namespace ConsoleApp1
             int NumberYear = (int)DateTime.Now.Year;
             int NumberMonth = (int)DateTime.Now.Month;
             int day = (int)DateTime.Now.Day;
+
             int NumberMinut = ((int)DateTime.Now.Hour * 60) + ((int)DateTime.Now.Minute);
+
+            Console.WriteLine("Время действовать.");
+
+            Console.ReadLine();
 
         }
     }
